@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #f1f5f9;
+  font-family:'Nunito Sans',sans-serif;
+  display: block;
+}
+
+.hover-card:hover {
+  cursor: pointer;
+  opacity: 0.9;
+  background-color: darken(currentColor, 10%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease-in-out;
+}
+@media only screen and (max-width: 600px) {
+  .main-container{
+    background-color: white;
+    width: auto;
+    height: 100vh;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .main-container{
+    width: 576px;
+    background-color: white;
+    height: 100vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .main-container{
+    width: 768px;
+    background-color: white;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
